@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6s0083/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大秦景教流行中國碑頌
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T54/T54n2144.xml
+    old_id: T54n2144
+hash: sha256:018db87d8552f7efe70f1bad223363b9ac19cb17603cbea0e25327e15b4c50b2

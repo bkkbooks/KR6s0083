@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR6s0083/v1
+canonical_location: https://kanripo.org/bkk/KR6s0083/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大秦景教流行中國碑頌
+  identifiers:
+    alt_id:
+    - T54n2144
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T54/T54n2144.xml
+    old_id: T54n2144
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6s0083_000.yaml, hash: 'sha256:018db87d8552f7efe70f1bad223363b9ac19cb17603cbea0e25327e15b4c50b2'}
+  - {seq: 1, filename: KR6s0083_001.yaml, hash: 'sha256:aa5796117b9442f9067491593c6a13753062d3e49f06da31e14e4b391c91f985'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6s0083_001.markers.yaml, hash: 'sha256:7c6d4e97b09a658c04b021dc967649e3699d12f437fe83fadacaeabf5051c3fe'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6s0083_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1999
+  label: 大秦景教流行中國碑頌并序
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6s0083_T_001-mulu-1
+    span:
+    - body
+    - 7
+    - 7
+  label: 大秦景教流行中國碑頌序
+  type: mulu
+  level: 1
+hash: sha256:97ce31dc9a4c1386dc383bf0578ffe17253f804b8713bea1547453e66e06a307
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
