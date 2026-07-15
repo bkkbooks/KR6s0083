@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6s0083/v1
 canonical_location: https://kanripo.org/bkk/KR6s0083/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大秦景教流行中國碑頌
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6s0083_000.yaml, hash: 'sha256:018db87d8552f7efe70f1bad223363b9ac19cb17603cbea0e25327e15b4c50b2'}
-  - {seq: 1, filename: KR6s0083_001.yaml, hash: 'sha256:2b24130af06918c16cc8bc872b7758736b7c35d1bb2066c95d62fcd212b8f939'}
+  - {seq: 1, filename: KR6s0083_001.yaml, hash: 'sha256:6a931b4e0d86ae5e1e0d38df53cac4785260201aaab081c03d075e426979afa9'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6s0083_000.markers.yaml, hash: 'sha256:f03792b22225b28ff718ce0fe522541530f1d27974ac01b02740076a46f4632f'}
-  - {seq: 1, role: markers, filename: assets/KR6s0083_001.markers.yaml, hash: 'sha256:8d5281a92eaaa87778f915bae3e1c47df8da5c416269afdbcd69cfce0a97fef4'}
+  - {seq: 1, role: markers, filename: assets/KR6s0083_001.markers.yaml, hash: 'sha256:b69d0f432179246c9db071e135784d4a096b14fe2e68e3e1119cc12987acacdf'}
 table_of_contents:
 - ref:
     seq: 1
@@ -47,4 +47,7 @@ table_of_contents:
   label: 大秦景教流行中國碑頌序
   type: mulu
   level: 1
-hash: sha256:bd6a5af3db07ebec0fc05262c0662f3a67df800cb24f476d79eac97f48e02b3b
+hash: sha256:3f0e64177b2ee8f3cb87d2d9ae547f41cfaae1e87f9851ac881c59b543b2f51d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
